@@ -20,7 +20,7 @@ data.forEach(function(e,index){
     price.innerText=e.price;
     let btn=document.createElement("button")
     btn.innerText="remove"
-    
+    btn.setAttribute("id",'remove_product')
     btn.addEventListener("click",function(){
         remove(index)
     });
