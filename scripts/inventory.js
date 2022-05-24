@@ -64,6 +64,7 @@ function remove(e,i){
 // }
 
 
+
 // function remove() {
 //     let data = JSON.parse(localStorage.getItem("products"))||[];
 //     console.log(data)
@@ -75,3 +76,5 @@ function remove(e,i){
     
 //   }
 append()
+
+   
