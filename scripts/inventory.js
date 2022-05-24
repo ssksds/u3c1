@@ -1,4 +1,7 @@
-
+var dir=document.querySelector("#add_more_product").addEventListener("click",redir)
+function redir(){
+    window.location.href="index.html"
+};
 // console.log(data)
 function append(){
      let data=JSON.parse(localStorage.getItem("products"))||[]

@@ -1,5 +1,8 @@
 //store the products array in localstorage as "products"
-
+var dir=document.querySelector("#show_products").addEventListener("click",redir)
+function redir(){
+    window.location.href='inventory.html'
+};
 
 
 function Data(type,desc,price,image){
